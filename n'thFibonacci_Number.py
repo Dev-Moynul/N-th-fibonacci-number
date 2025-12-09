@@ -1,8 +1,5 @@
-N = int(input())
-
+n = int(input())
 a, b = 0, 1
-
-for _ in range(N):
+for _ in range(n):
     a, b = b, a + b
-
 print(a)
